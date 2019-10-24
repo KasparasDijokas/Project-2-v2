@@ -1,1 +1,72 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}
+
+body {
+
+}
+
+    .container {
+        display: inline-block;
+        background-color: #F8F8F8;
+        width: 1000px;
+        margin-left: calc((100% - 1000px) / 2);
+        margin-top: 30px;
+        
+    }
+
+        header {
+            display: inline-block; /*jei paliksim -header- kaip block level element, 
+            tai -logo- ir -nav- floatinus, crashina headeris. Padarius inline-block viskas pasitaiso*/
+            width: 100%;
+            border: 2px solid red;
+        }
+
+            .logo {
+                /* display: inline-block; */
+                float: left;
+            }
+
+            nav {
+                /* display: inline-block; */
+                float: right;
+            }
+
+                a {
+                    display: inline-block;
+                }
+
+                .btn {
+                    display: inline-block;
+                }
+
+    .text-area {
+        display: inline-block;
+        width: 40%;
+        margin: 5%;
+        float: left;
+    }
+
+        h1 {
+            display: inline-block;
+            width: 100%;
+        }
+
+        p {
+            display: inline-block;
+            width: 100%;
+        }
+        
+    .mergaite {
+        display: inline-block;
+        width: 40%;
+        float: right;
+        margin: 5%;
+    }
 
